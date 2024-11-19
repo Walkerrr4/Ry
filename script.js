@@ -9,7 +9,7 @@ function downloadVideo() {
     }
 
     // Simulasikan link download untuk demo (di dunia nyata, kamu harus menggunakan API atau scraping untuk mendapatkan URL video)
-    const videoUrl = `https://www.tiktok.com/oembed?url=${encodeURIComponent(url)}`;
+    const videoUrl = `https://tiksave.io/api/ajaxSearch=${encodeURIComponent(url)}`;
 
     // Menampilkan link download (biasanya disarankan untuk menggunakan API eksternal)
     const downloadLink = document.getElementById("downloadLink");
